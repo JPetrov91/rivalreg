@@ -9,8 +9,11 @@
 namespace Database;
 
 
+use templates\Singleton;
+
 class database
 {
+    Use Singleton;
 
     protected $dbh;
 
